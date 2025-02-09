@@ -1,0 +1,258 @@
+body {
+  background-color: white;
+  /* border: 3px solid;
+  display: flow-root; */
+}
+h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+/* #p1 {
+  color: red;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#p2 {
+  color: blue;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#p3 {
+  color: green;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#p4 {
+  color: yellow;
+  font-size: 20px;
+  margin: 20px;
+} 
+
+
+.odd {
+    color: red;
+    font-size: 20px;
+    margin: 20px;
+}
+.even {
+    color: green;
+    font-size: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+
+h1 {
+    /* border: solid white; 
+    border: dashed white;  
+    border: dotted 5px white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-shadow: 3px 3px 2px; 
+    text-shadow: 3px 3px 2px red, -3px -3px 2px blue;
+}
+
+
+#box {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px red;
+}
+
+
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: tomato;
+    border: 5px solid #ccc;
+
+   
+}
+
+#box1 {
+    background-color: lightskyblue;
+    margin-top: 50px;
+}
+#box2 {
+    background-color: lightskyblue;
+    margin-top: 50px;
+    margin-left: 50px;
+} 
+
+#img1 {
+    float: right;
+    margin-right: 20px;
+}
+
+
+#img2 {
+    float: left;
+    margin-right: 20px;
+} 
+
+positions
+
+#box1 {
+ width: 200px;
+ height: 200px;
+ background-color: lightblue;
+ position: relative;
+ top: -100px;
+ left: -100px;
+}  
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box3 {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: relative;
+    top: 25px;
+    left: 25px;
+} 
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: fixed;
+    top: 0px;
+}  
+
+
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: sticky;
+    top: 0px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: static;
+    top: 50px;
+    left: 50px;
+} 
+
+#container {
+    border: 3px solid;
+}
+
+#container p{
+    background-color: yellow;
+} 
+
+#container {
+    border: 3px solid;
+}
+
+#container > p{
+    background-color: yellow;
+}
+
+
+#container {
+    border: 3px solid;
+}
+
+#container ~ p{
+    background-color: yellow;
+}
+
+
+#container {
+    border: 3px solid;
+}
+
+#container + p{
+    background-color: yellow;
+}   
+
+
+a:link {
+   color: red; 
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: lightblue;
+    font-size: 1.1em;
+}
+
+a:active{
+    color: blue;
+    font-size: 1.1em;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: lightcyan
+}  
+
+li:hover {
+    background-color: yellow;
+}
+
+li:not(:hover) {
+    background-color: grey;
+} 
+
+
+li:nth-child(4n) {
+    background-color: yellow;
+} 
+
+#greet p {
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+} 
+
+
+#greet:hover p {
+    display: block;
+} */
+
+
+

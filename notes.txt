@@ -1,0 +1,106 @@
+HTML:-  Hypertext markup language
+everything based tags.
+
+ids, classnames -> attributes, values
+
+<> ---> opentag
+
+</> ---> closing tags
+
+headers
+
+boiler plate code
+
+<html>
+  <head>
+     
+  </head>
+  <body>
+  
+    <footer>
+  
+    </footer>
+  </body>
+</html>
+
+<h1></h1>
+
+header
+body
+footer
+
+
+
+
+Hyperlink - it is digital refrence to data that user follow by click or tapping a buuton or link
+
+
+favicons
+176 - height
+176 - width
+
+ <div></div> - block level container to group the elements for styling purposes
+
+ <span></span> - inline container to group the elements for styling purposes
+
+
+list
+
+ul - unordered list
+ol - ordered list
+
+CSS:- Cascading style 
+
+Inline, Internal, External 
+
+
+Float - allows other elements to flow around it 
+
+position 
+
+relative - postioned relative to where it is normally
+fixed - postioned relative to the viewport
+absolute - the element postioned relative to the nearest ancestor
+sticky - positioned based onscroll position
+static - default position for an element   
+
+
+Combinators = explains the relationship b/w listed selectors 
+
+|  = decendant 
+> = child 
+~ = general sibling
++ = adjacent sibling
+
+
+selector > selector
+
+div > p 
+
+
+Pseudo-classes - it is keyword added to selectors they modify the behavior of HTML element when they are in certain state.
+
+
+Dev repo - main / master branch
+// navbar module branch 
+// productsListAPI branch
+// Payment gateway module
+
+Testing Repo 
+
+Production Repo 
+
+
+
+
+
+
+
+
+
+
+Javascript:- 
+
+
+
+

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/fav1.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mern Weekend classes</title>
+    <!-- <style>
+        body {
+         background-color: black;
+
+        }
+        h1{
+         color: white;
+         font-size: 30px;
+         text-align: center;
+        }
+        p{
+         color: white;
+         font-size: 20px;
+         margin: 20px;
+        }
+    </style> -->
+  </head>
+  <body>
+    <!--
+    <h1>This is an H1 heading</h1>
+    <h2>This is an H2 heading</h2>
+    <h3>This is an H3 heading</h3>
+    <h4>This is an H4 heading</h4>
+    <h5>This is an H5 heading</h5>
+    <h6>This is an H6 heading</h6>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur veniam sed placeat ea quidem, quas error quia nihil at? Voluptate alias quae, suscipit quibusdam a possimus neque placeat aliquam!</p>
+
+     <a href="https://www.amazon.in/" target="_blank" title="goes to amazon">Click me</a>
+
+     <a href="lyrics.html">click me</a>
+
+     <a href="mailto: vaishnavi@gmail.com">mail me:- </a>
+
+    
+
+     images
+     
+
+     <img src="images/img1.jpg" alt="this is a pic of dog" height="200"> 
+     
+     <a href="https://en.wikipedia.org/wiki/Dog">
+        <img src="images/img1.jpg" alt="this is a pic of dog" height="200"> 
+     </a>
+     <a href="https://en.wikipedia.org/wiki/Dog">
+        <img src="images/puppy-eyes-puppy.gif" alt="this is a pic of dog" height="200"> 
+     </a>
+
+     
+
+     <p>this is normal text</p>
+     <p>this is <b>bold</b> text</p>
+     <p>this is <i>italic</i> text</p>
+     <p>this is <u>underline</u> text</p>
+     <p>this is <del>deleted</del> text</p>
+     <p>this is <big>big</big> text</p>
+     <p>this is <small>small</small> text</p>
+     <p>this is <sub>subscript</sub> text</p>
+     <p>this is <sup>superscript</sup> text</p>
+     <p>this is <mark>mark</mark> text</p>
+
+   
+     Group Together HTML 
+       
+
+     <h1><span style="background-color: tomato;">This is SPAN title</span></h1>
+     <h1><div style="background-color: aqua;">This is DIV title</div> </h1>
+
+     <p><span style="background-color: tomato;">This is span sentence</span></p>
+     <p><div style="background-color: aqua;">This is div sentence</div></p>
+  
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur similique amet ex temporibus voluptatem quod accusantium incidunt in inventore esse, <span style="background-color: tomato;">recusandae nesciunt exercitationem modi doloribus suscipit sint! Cupiditate, reprehenderit?</span></p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur similique amet ex temporibus voluptatem quod accusantium incidunt in inventore esse, recusandae <div style="background-color: aqua;"> nesciunt exercitationem modi doloribus suscipit sint! Cupiditate, reprehenderit?</div></p>
+
+     List
+     
+      <h4>Groceries</h4>
+     <ul>
+      <li>Milk</li>
+      <li>Eggs</li>
+      <li>Eggs</li>
+      <li>bread</li>
+      <li>Tea Supplies</li>
+      <ul>
+         <li>tea leaves</li>
+         <li>creamer</li>
+         <li>sugar</li>
+      </ul>
+     </ul>
+   
+     <h4>To do list</h4>
+     <ol>
+      <li>Brush</li>
+      <li>walk our dog</li>
+      <li>eat breakfast</li>
+      <li>work</li>
+     </ol>
+  
+
+   <h3>Store Hours</h3>
+   
+   <table border="1" style="background-color:black;">
+      <tr align="center" style="background-color: lightpink;">
+         <th width="100">Sunday</th>
+         <th width="100">Monday</th>
+         <th width="100">Tuesday</th>
+         <th width="100">Wednesday</th>
+         <th width="100">Thursday</th>
+         <th width="100">Friday</th>
+         <th width="100">Saturday</th>
+      </tr>
+     <tr align="center" style="background-color: aliceblue;">
+      <td>Closed</td>
+      <td>9-5</td>
+      <td>9-5</td>
+      <td>9-5</td>
+      <td>9-5</td>
+      <td>9-5</td>
+      <td>10-1</td>
+     </tr>
+   </table>
+ 
+
+      buttons
+   
+
+   
+
+      <button style="font-size: 25px; background-color: black; color: palevioletred;border-radius: 10px;">Click Me</button>
+
+      <a href="https://www.google.com">
+         <button style="font-size: 25px; background-color: black; color: palevioletred;border-radius: 10px;">Click Me</button>
+      </a>
+
+      
+
+
+      <button onclick="clickButton()" style="font-size: 25px; background-color: black; color: palevioletred;border-radius: 10px;">Click Me</button>
+
+
+    <p id="greeting1">Hello varshini</p>
+
+      <script>
+         function clickButton() {
+             document.getElementById("greeting1").innerHTML = "goodbye varshini"; 
+         }
+      </script>
+
+    
+      forms
+
+    
+
+     <form action="formdb.jsx" method="POST">
+       <label for="username">Username:</label>    
+       <input type="text" id="username" minlength="6" maxlength="15"  placeholder="Varshini123" required> <br><br>
+
+       <label for="password">Password:</label>    
+       <input type="password" id="password" required> <br><br>
+
+       <label for="email">Email:</label>    
+       <input type="email" id="email" required> <br><br>
+
+       <label for="phone">Phone:</label>    
+       <input type="tel" id="phone" placeholder="91 99999 00000" required> <br><br>
+
+       <label for="bday">Birthday:</label>    
+       <input type="date" id="bday" required> <br><br>
+
+       <label for="quantity">Quantity:</label>    
+       <input type="number" id="quantity"  value="1" > <br><br>
+
+       <label for="title">Title:</label>    
+
+       <label for="Mr.">Mr. </label>  
+       <input type="radio" id="Mr."  value="Mr." name="title"> 
+
+       <label for="Ms.">Ms. </label> 
+       <input type="radio" id="Ms."  value="Ms." name="title"> 
+
+       <label for="Dr.">Dr. </label>    
+       <input type="radio" id="Dr."  value="Dr." name="title"> <br><br>
+
+       <label for="payment">Payment </label>    
+       
+       <select name="" id="payment">
+         <option value="rupay">Rupay</option>
+         <option value="mastercard">Mastercard</option>
+         <option value="visa">Visa</option>
+       </select>
+       <br><br>
+
+       <label for="subscribe">Subscribe:</label>    
+       <input type="checkbox" id="subscribe" required> <br><br>
+
+       <label for="comment">Comment:</label>    
+       <textarea id="comment" rows="3" cols="25"></textarea> <br><br>
+
+       <label for="file">File:</label>    
+       <input type="file" id="file"> <br><br>
+
+       <input type="reset">
+       <input type="submit">
+     </form>
+
+     
+
+      <h1>Varshini</h1>
+      <p id="p1" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.</p>
+
+      <p id="p2" class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.</p>
+
+      <p id="p3" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.</p>
+
+      <p id="p4" class="even">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.</p>
+
+      
+
+       <div id="box"></div>
+
+       margins - space around an element and the webpage
+        
+
+        <h1>Varshini</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid incidunt harum assumenda architecto iusto libero ea autem pariatur distinctio porro temporibus magni, quasi nihil voluptatem corrupti fugit sequi explicabo! Voluptatum!</p>
+
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+
+    <h1>Varshini</h1>
+    <img src="images/puppy-eyes-puppy.gif" height="150px" id="img1" />
+    <p id="p1" class="odd">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit
+      iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error
+      itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.
+    </p>
+
+    <p id="p2" class="even">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit
+      iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error
+      itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.
+    </p>
+
+     
+    <img src="images/fav1.png" height="150px" id="img2" />
+
+    <p id="p3" class="odd">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit
+      iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error
+      itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.
+    </p>
+
+    <p id="p4" class="even">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit
+      iste asperiores ab nulla aliquid dignissimos nisi illum non tempora, error
+      itaque. Labore iusto distinctio magnam adipisci porro a. Consequatur.
+    </p>  
+
+    <div class="box" id="box1">
+      <div class="box" id="box2">
+         <div class="box" id="box3">
+      
+         </div> 
+      </div> 
+    </div> 
+    
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae totam maxime cumque quia dolorum quasi numquam omnis asperiores consequuntur. Dolores earum voluptas quaerat, repellat praesentium beatae non rem rerum ut.</p> 
+    
+    
+    Combinators 
+  
+
+
+    <div class="" id="container">
+      <p>This is Vaishanavi</p>
+      <p>This is Varshini</p>
+      <div>
+        <p>they are students</p>
+      </div>
+    </div>
+    <p>This is Dinesh Vijayan</p>
+    <p>He is Instructor</p>  
+
+
+    <a href="https://google.com">Google</a>  
+
+
+    <ul>
+      <li>This is #1</li>
+      <li>This is #2</li>
+      <li>This is #3</li>
+      <li>This is #4</li>
+      <li>This is #5</li>
+      <li>This is #6</li>
+      <li>This is #7</li>
+      <li>This is #8</li>
+      <li>This is #9</li>
+    </ul>
+   -->
+
+   <div id="greet">Hover here
+    <p>Hello Varshini</p>
+   </div>
+
+   
+
+  </body>
+</html>
