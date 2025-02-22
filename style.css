@@ -254,5 +254,135 @@ li:nth-child(4n) {
     display: block;
 } */
 
+body {
+    background-color: white;
+}
+
+#box {
+  width: 250px;
+  height: 250px;
+  background-color: tomato;
+  font-size: 4.5em;
+  text-align: center;
+  animation-name: slideLeft;
+  /* animation-name: slideRight; */
+  /* animation-name: slideUp; */
+  /* animation-name: slideDown; */
+  /* animation-name: rotateX; */
+  /* animation-name: rotateY; */
+  /* animation-name: rotateZ; */
+  /* animation-name: grow; */
+  /* animation-name: shrink; */
+  /* animation-name: fade; */
+  /* animation-name: colorChange; */
+  /* animation-name: glow; */
+  animation-duration: 2s;
+  animation-iteration-count: 2; 
+  animation-direction: reverse; 
+  animation-play-state: paused; 
+  animation-timing-function: steps(6);
+}
+
+img{
+    animation-name: slideRight;
+  /* animation-name: slideUp; */
+  /* animation-name: slideDown; */
+  /* animation-name: rotateX; */
+  /* animation-name: rotateY; */
+  /* animation-name: rotateZ; */
+  /* animation-name: grow; */
+  /* animation-name: shrink; */
+  /* animation-name: fade; */
+  /* animation-name: colorChange; */
+  /* animation-name: glow; */
+  animation-duration: 2s;
+  animation-iteration-count: 2; 
+  animation-direction: reverse; 
+  animation-play-state: running; 
+  animation-timing-function: steps(6);
+}
+
+/* #box:hover {
+    animation-name: glow;
+    animation-duration: 2s;
+} */
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(400%);
+  }
+  /* 
+   from{transform: translateX(100%)} */
+}
+@keyframes slideRight {
+  to {
+    transform: translateX(400%);
+  }
+  /* from{transform: translateX(100%)} */
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(400%);
+  }
+  /* from{transform: translateX(100%)} */
+}
+@keyframes slideDown {
+  to {
+    transform: translateY(400%);
+  }
+}
+@keyframes rotateX {
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+@keyframes rotateY {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotateZ {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes grow {
+  50% {
+    transform: scale(2, 2);
+  }
+}
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes colorChange {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  40% {
+    background-color: purple;
+  }
+  60% {
+    background-color: blue;
+  }
+  80% {
+    background-color: lightgreen;
+  }
+  100% {
+    background-color: indianred;
+  }
+}
 
 
+@keyframes glow {
+    50%{box-shadow: 0px 0px 50px black;}
+}
