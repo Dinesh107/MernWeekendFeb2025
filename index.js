@@ -84,13 +84,13 @@
 // console.log(username);
 
 
-let username;
+// let username;
 
-document.getElementById("myBtn").onclick = function() {
-   username = document.getElementById("myText").value;
-   console.log(username);
-   document.getElementById("myH1").textContent = `Hello ${username}, Its Great to study!!!`;
-}
+// document.getElementById("myBtn").onclick = function() {
+//    username = document.getElementById("myText").value;
+//    console.log(username);
+//    document.getElementById("myH1").textContent = `Hello ${username}, Its Great to study!!!`;
+// }
 
 
 // username
@@ -99,13 +99,239 @@ document.getElementById("myBtn").onclick = function() {
 // phone
 // dateofbirth
 
+// type conversion - cahnge the datatype of a value to a another (string, number. boolean)
 
 
 
+// let age = window.prompt("How old are you");
+
+// age = Number(age);
+
+// console.log(typeof age, age);
+
+
+// let x = "0";
+
+// let y = "0";
+
+// let z = "0";
+
+// x = Number(x);
+
+// y = String(y);
+
+// z = Boolean(z);
+
+// console.log(x, typeof x);
+// console.log(y, typeof y);
+// console.log(z, typeof z);
+
+
+// const - a varaible that can't be changed
+
+// const PI = 3.14159;
+
+// let radius;
+
+// let circumference;
+
+// PI = 63.344;
+
+// radius = window.prompt("Enter the radius of a circle");
+
+// radius = Number(radius);
+
+// circumference = 2 * PI * radius;
+
+// console.log(circumference);
+
+
+// Condition statements
+
+// if - if a condition is true, execute some code, if not do something else
+
+// let age = 20;
+
+// if (age >= 18) {
+//     console.log("You are eligible to vote");
+// } 
+
+// if-else -  if a condition is true, execute some code, if not else part will be executed
+
+// let age = 10;
+
+// if (age >= 18) {
+//     console.log("You are eligible to vote");
+// } else {
+//     console.log("You are not eligible to vote");
+// }
+
+// nested if statements or ladder statements
+
+// let mark = 55;
+
+// if (mark <= 10) {
+//     console.log("you must improve your study and need to work hard");
+// } else if(mark > 10 && mark < 50) {
+//       console.log("You are doing good, but you can improve");
+// } else if(mark >= 50 && mark < 80) {
+//       console.log("Congratulations, you passed the exam");
+// } else  {
+//     console.log("You are awarded with distinction");
+// }
+
+// ternary operator - a shortcut to if{} and else{} statements helps to assign a varaiable based on a consdition 
+
+// condition ? codeIfTrue : codeIfFalse
+
+// let age = 10;
+
+// let message = age >= 18 ? "You're an adult" : "You're a minor";
+
+// console.log(message);
+
+
+// let purchaseAmount;
+
+// let discoun = 10%;
+
+// swtich -can be an efficient replacement to many else if statement
+
+// let day = 1234;
+
+// switch (day) {
+//    case 1:
+//        console.log("Monday");
+//        break;
+//    case 2:
+//        console.log("Tuesday");
+//        break;
+//    case 3:
+//        console.log("Wednesday");
+//        break;
+//    case 4:
+//        console.log("Thursday");
+//        break;
+//    case 5:
+//        console.log("Friday");
+//        break;
+//    case 6:
+//        console.log("Saturday");
+//        break;
+//    case 7:
+//        console.log("Sunday");
+//        break;
+//    default:
+//        console.log("Invalid day");
+// }
 
 
 
+// string methods - allow you to manipulate and work with text (strings)
 
+// let userName = "Premaaa Varshini";
+
+// length property - returns the number of characters in a string
+
+// console.log(userName.length);
+
+// toUpperCase() - converts all the characters in a string to uppercase
+
+// console.log(userName.toUpperCase());
+
+// toLowerCase() - converts all the characters in a string to lowercase
+
+// console.log(userName.toLowerCase());
+
+// trim() - removes whitespace from both sides of a string
+
+// console.log(userName.trim());
+
+// replace() - replaces a specified value with another value in a string
+
+// console.log(userName.replace("Prema", "P"));
+
+// split() - splits a string into an array of substrings
+
+// console.log(userName.split("-"));
+
+// concat() - joins two or more strings together
+
+
+
+// let firstName = "Varshini";
+// let lastName = "Perma";
+
+// console.log(firstName.concat(" ", lastName));
+
+
+// charAt()
+
+// console.log(userName.charAt(2));
+
+// indexOf()
+
+// console.log(userName.indexOf("a"));
+
+// lastIndexOf()
+
+// console.log(userName.lastIndexOf("a"));
+
+
+
+// string slicing - create a substring fro  a portion of another
+
+// string.slice(start, end)
+
+// const fullName = "Prema Varshini";
+
+// let firstName = fullName.slice(0, 4);
+
+// let lastName = fullName.slice(6);
+
+// console.log(firstName);
+
+// console.log(lastName);
+
+// let firstName = fullName.slice(0, fullName.indexOf(" "));
+
+// let lastName = fullName.slice(fullName.indexOf(" ") + 1);
+
+// console.log(firstName);
+// console.log(lastName);
+
+
+// email = varshini@gmail.com;
+
+
+// method chaining - 
+
+
+// without chains
+
+// let username = window.prompt("Enter your username");
+
+// username = username.trim();
+
+// let letter = username.charAt(0);
+
+// letter = letter.toUpperCase();
+
+// let extraChars = username.slice(1);
+
+// extraChars = extraChars.toLowerCase();
+
+// username = letter + extraChars;
+
+// console.log(username);
+
+// with chains
+
+// let username = window.prompt("Enter your username");
+
+// username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+
+// console.log(username);
 
 
 
