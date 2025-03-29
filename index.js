@@ -334,6 +334,145 @@
 // console.log(username);
 
 
+// logical operator - used to combine or manipulate boolean values(true or false)
+
+// AND = &&
+// OR = ||
+// NOT = !
+
+// const isSummer = true;
+
+// if(!isSummer) {
+//     console.log("It's summer!!");
+// } else {
+//     console.log("It's not summer yet");
+// }
+
+// = assignment operator 
+// == coamparison operator (comapare if values are equal)
+// === strict equality operator (coampare if values & datatype are equal)
+// != inequality operator -it will return true if two values are not equal
+// !== strict inequality operator
+
+// const PI = 3.14;
+
+// if(PI == "3.14") {
+//     console.log("this is PI");
+// } else {
+//     console.log("this is not PI");
+// }
+
+// const PI = 3.14;
+
+// if(PI === "3.14") {
+//     console.log("this is PI");
+// } else {
+//     console.log("this is not PI");
+// }
+
+
+// != inequality operator -it will return true if two values are not equal
+
+// const PI = 3.14;
+
+// if(PI != "3.14") {
+//     console.log("this is not PI");
+// } else {
+//     console.log("this is PI");
+// }
+
+//!== strict inequality operator
+
+// the value are same and datatype also same it will return false
+
+// const PI = 3.14; 
+
+// if(PI != 3.14) {
+//     console.log("this is not PI  false");
+// } else {
+//     console.log("this is PI true");
+// }
+
+// loops 
+
+// while loop - entry control loop
+// do while loop - exit control loop 
+// for loqop - enter control loop
+
+// for(let i = 10; i >= 1; i--) {
+//     console.log(i);
+// }
+// for(let i = 1; i <= 10; i++) {
+//     if(i == 5) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// for(let i = 1; i <= 10; i++) {
+//     if(i == 5) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// console.log("Happy new yearr!!!!");
+
+
+// funtions - a section of reusable code
+
+// declare code once, use it whenever you want,
+
+// call the function to excute that code
+
+// function happyBirthday(username, age) {
+//     console.log("Happy Birthday!!!! to you");
+//     console.log("Happy Birthday!!!! to you");
+//     console.log(`Happy Birthday!!!! to dear ${username} youu`);
+//     console.log("Happy Birthday!!!! to you");
+//     console.log(`you are ${age} years old`);
+// }
+
+// happyBirthday("Vaishnavi", 20);
+// happyBirthday("varshni", 21);
+
+
+// variable scope = where a varaible is recognized and accessible (local vs global)
+
+// let x = 1;
+
+// func1();
+// func2();
+
+// function func1() {
+//     let x = 2;
+//     console.log(x); 
+// }
+
+// function func2() {
+//     let x = 3;
+//     console.log(x); 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
