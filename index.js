@@ -456,31 +456,216 @@
 
 
 
+// array =  variable like structure that can hold more than 1 value;
+
+//let fruits = ["apple", "orange", "banana"];
+
+//fruits.push("Kiwi");
+// fruits.pop();
+//fruits.unshift("mango");
+//fruits.shift();
+
+// let numofFruits = fruits.length;
+// console.log(numofFruits);
+
+// let index = fruits.indexOf("apple");
+// console.log(index);
+
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[3]);
+
+// for(let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+// for(let fruit of fruits) {
+//     console.log(fruit);
+// }
 
 
 
+// spread operator = ... allows an iterable usch as an array or string to expanded itno seprate  elements (unpacks the elements)
 
 
+// let numbers = [1, 2, 3, 4, 50, 100, 500];
+
+// let max = Math.max(...numbers);
+// console.log(numbers);
+// console.log(max);
 
 
+// let fruits = ["apple", "orange", "banana"];
+
+// let vegetables = ["carrots", "tomatos", "beetroot"];
+
+// let allFruitsAndVegetables = [...fruits,...vegetables, "eggs", "bread"];
+
+// console.log(allFruitsAndVegetables);
+
+// rest parametrs - bundles seprate elements into arrays
+
+// function openFridge(...foods) {
+//     console.log(...foods);
+// }
+
+// function getFood(...foods) {
+//    return foods;
+// }
+
+// const food1 = "briyani";
+
+// const food2 = "dosa";
+
+// const food3 = "idly";
+
+// const food4 = "curd rice";
 
 
+// openFridge(food1, food2, food3, food4);
 
 
+// const foods = getFood(food1, food2, food3, food4);
+
+// console.log(foods);
+
+// callbacks = a function that is passed as an argument to another function
 
 
+// used to handle async operations
+
+// hello(wait, leave, goodbye);
 
 
+// function hello(callback1, callback2, callback3) {
+//         console.log("Hello World");
+//         callback1();
+//         callback2();
+//         callback3();
+// }
+
+// function leave() {
+//     console.log("Leave");
+// }
+
+// function wait() {
+//     console.log("waittt");
+// }
+
+// function goodbye() {
+//     console.log("Goodbye");
+// }
 
 
+// function sum(callback, x, y) {
+//    let result = x + y;
+//    callback(result);
+// }
+
+// function displayConsole(result) {
+//    console.log(result);
+// }
 
 
+// sum(displayConsole, 5, 10);
 
 
+// Foreach() - method used to iterate over the elemnets of an array and apply a specified function call back to ech elemnts
+
+// array.froEach(callback);
+// element, index, array
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// // numbers.forEach(double);
+// numbers.forEach(square);
+// numbers.forEach(display);
+
+// function double(element, index, array) {
+//     array[index] = element * 2;
+// }
+
+// function square(element, index, array) {
+//     array[index] = Math.pow(element, 2)
+// }
+
+// function display(element) {
+//     console.log(element);
+// }
 
 
+// let fruits = ["apple", "orange", "banana", "kiwi"]
+
+// fruits.forEach(upperCase);
+// fruits.forEach(display);
 
 
+// function upperCase(element, index, array) {
+//     array[index] = element.toUpperCase();
+// }
+
+// function display(element) {
+//     console.log(element);
+// }
+
+// map - accepts a callback and applies that function to each element of an array, then return a new array
 
 
+// let numbers = [1, 2, 3, 4, 5];
 
+// const squares = numbers.map(square);
+// console.log(squares);
+
+// const cubes = numbers.map(cube);
+// console.log(cubes); 
+
+
+// function square(element, index, array) {
+//     return Math.pow(element, 2);
+// }
+
+// function cube(element, index, array) {
+
+//     return Math.pow(element, 3);
+// }
+
+// filter - method creates a new array with all elements that pass the test implemented by the provided function
+
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+// let evenNums = numbers.filter(isEven);
+
+// console.log(evenNums);
+
+// function isEven(element) {
+//     return element % 2 === 0;
+// }
+
+// reduce - method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value
+
+// const prices = [5, 10, 20, 30, 40, 50, 60];
+
+// const totalPrice = prices.reduce(sum);
+
+// console.log(`TotalPrice: ${totalPrice.toFixed(2)}`);
+
+
+// function sum(accumulator, element) {
+//    return accumulator + element;
+// }
+
+
+// arrow functions - a concise way to write function
+
+// () => {}
+// const hello = function() {
+//  console.log("Hello World");
+// }
+
+const hello = (name) => { console.log(`hello ${name}`);
+const hello = (name) => console.log(`hello ${name}`);
+}
+
+hello("Vaishnavi");
