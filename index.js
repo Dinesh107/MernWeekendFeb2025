@@ -664,8 +664,158 @@
 //  console.log("Hello World");
 // }
 
-const hello = (name) => { console.log(`hello ${name}`);
-const hello = (name) => console.log(`hello ${name}`);
-}
+// const hello = (name) => { console.log(`hello ${name}`);
+// const hello = (name) => console.log(`hello ${name}`);
+// }
 
-hello("Vaishnavi");
+// hello("Vaishnavi");
+
+
+/// destructuring - Extract values from arrays and objects 
+// then assign them to varaibles in a convenient way 
+// [] - to perform array destructuring
+// {} - object destructuring
+
+// Example 1
+
+// Swap the value of two variables
+
+// let a = 2;
+// let b = 4;
+
+// [ a, b ] = [b , a];
+
+// console.log(a);
+// console.log(b);
+
+// SWAP the 2 Elements in an array
+
+// const colors = ["blue", "green", "yellow", "orange", "white"];
+
+// [colors[0], colors[4]] = [colors[4], colors[0]]
+
+// console.log(colors);
+
+// Assign array elements to variables
+
+
+// const colors = ["blue", "green", "yellow", "orange", "white"];
+
+// const [firstColor, secondColor, thirdColor, ...extraColors] = colors;
+
+// console.log(firstColor);
+
+// console.log(secondColor);
+
+// console.log(thirdColor);
+
+// console.log(extraColors);
+
+// example 4
+
+// Extract Values from objects
+
+// const person1 = {
+//     name: "John Doe",
+//     age: 30,
+//     city: "New York"
+// }
+
+
+// const person2 = {
+//     name: "Jane Doe",
+//     age: 25,
+//     city: "Los Angeles"
+// }
+
+
+// const {name, age, city} = person1;
+
+// console.log(`Name: ${name}, Age: ${age}, City: ${city}`);
+
+// const {name: newName, age: newAge, city: newCity} = person2;
+
+// console.log(`Name: ${newName}, Age: ${newAge}, City: ${newCity}`);
+
+// Closure - the function defined inside of another of function
+
+// the inner function access to the variable and scope of the outer function.
+
+// allow for private varibles and for state maintenance.
+// used frequently  in js framework: react, vue, angular
+// we can encapusate the varaile and make it private
+
+// function outer() {
+//     let message = "Hello varshini";
+//     function inner() {
+//       console.log(message);
+//     }
+//     inner();
+// }
+
+// message = "Goodbye";
+
+// outer();
+
+
+
+// function createCounter() {
+//     let count = 0;
+//     function increment() {
+//         count++;
+//         console.log(`Count incresed to ${count}` );
+//     }
+
+//     function getCount() {
+//         return count;
+//     }
+
+//     return {increment, getCount}
+// }
+
+
+
+// const counter = createCounter();
+
+// counter.increment();
+// counter.increment();
+// counter.increment();
+// counter.increment();
+
+// console.log(counter.getCount()); // 3
+
+// console.log(counter.count); // 0
+
+// function createGame() {
+//     let score = 0;
+
+//     function increaseScore(points) {
+//        score+= points;
+//        console.log(`+${points} pts`);
+       
+//     }
+//     function decreaseScore(points) {
+//        score-= points;
+//        console.log(`-${points} pts`);
+       
+//     }
+    
+//     score = 12333233;
+    
+//     function getScore() {
+//         return score;
+//     }
+
+//     return {increaseScore, decreaseScore, getScore}
+// }
+
+// const game = createGame();
+
+
+
+// game.increaseScore(5);
+// game.increaseScore(6);
+
+// game.decreaseScore(3);
+
+// console.log(game.getScore()); // 12333236
