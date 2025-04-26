@@ -819,3 +819,159 @@
 // game.decreaseScore(3);
 
 // console.log(game.getScore()); // 12333236
+
+// SetTimeout() - function in javascript which allows us to shedule the execution of a function after an amount of time (milliseconds)
+
+// SetTimeout(callback, delay);
+
+// function haiHello() {
+//     window.alert("Hello")
+// }
+
+
+// setTimeout(haiHello, 3000);
+
+// setTimeout(function(){window.alert("Hello")}, 3000)
+
+
+// setTimeout(() => window.alert("Hello"), 3000);
+
+// synchronous = Execute line by line consecutively in a sequential manner code that waits for an to complete 
+
+
+// asynchronous - Allows a multiple operations to be performed at as same time without waiting, doesnt block excetion flow 
+// (i/o operatkons, netork requests, fetching DataTransfer)
+
+// callback, Aync/await, Promises
+
+// function func1(callback){
+//     setTimeout(() => {
+//         console.log("Task 1");
+//         callback()
+//     },3000);
+// }
+
+// function func2() {
+//     console.log("Task 2");
+//     console.log("Task 3");
+//     console.log("Task 4");
+// }
+
+// func1(func2);
+
+// setTimeout(() => console.log("Task 1"), 3000);
+
+
+// error handling - an object that is created to represent if any problem occurs often with user input, establishing the connections.
+
+// console.logg(x);
+// network
+// promise rejections
+// security error
+// console.log("You have reached the end");
+
+
+
+// try {} 
+
+// catch{}
+
+// finally {}
+
+
+
+// try{
+//     console.log("Hello");
+// // network
+// // promise rejections
+// // security error
+// } catch(error) {
+//     console.log(error);
+// } 
+// finally {
+//     // close file
+//     // close connections
+//     console.log("This will always run");
+    
+
+// }
+// console.log("You have reached the end");
+
+// callback hell - situation in javascript where callbacks are nexted within another callbacks to the degree where the code is diffcuilt to red old pattern to handle async function 
+
+// we use promises + aysn/await to avoid callback hel
+
+
+// Promises - an object that manages async operations, Wrap a promise object around (asynccode)
+
+// "I promise to return a value"
+
+// PENDING ---> RESOLVED or REJECTED
+
+
+// new Promise(resolve, reject) => {async code}
+
+// Do these task in order
+
+// Vaishanavi take a dog to walk
+
+// clean the kitchen
+
+// take out the trash 
+
+function takeDogOut() {
+    return new Promise((resolve, reject) => {
+        setTimeout(()=>{
+            const dogWalked = true;
+            if (dogWalked) {
+                resolve("You take out dog");
+            } else {
+                reject("You didn't take the dog walk out")
+            }
+        }, 2000);
+    });
+}
+
+function cleanKitchen() {
+    return new Promise((resolve, reject) => {
+        setTimeout(()=>{
+            const kitchenCleaned = true;
+            if (kitchenCleaned) {
+                resolve("You clean the kitchen");
+            } else {
+                reject("You didn't clean the kitchen")
+            }
+        }, 3000);
+    });
+}
+
+function takeOutTrash() {
+    return new Promise((resolve, reject) => {
+        setTimeout(()=>{
+            const takeOutTrash = false;
+            if (takeOutTrash) {
+                resolve("You take out the trash");
+            } else {
+                reject("You didn't take out the trash")
+            }
+           
+        }, 1500);
+    });
+
+}
+
+takeDogOut().then(value => {console.log(value); return cleanKitchen()})
+             .then(value => { console.log(value); return takeOutTrash()})
+             .then(value => {console.log(value); console.log("You finshed all the tasks")})
+             .catch(error => console.error(error));
+             
+             
+
+// takeDogOut(() => {
+//     cleanKitchen(() => {
+//         takeOutTrash(() => {
+//             console.log("You finish all the tasks");
+            
+//         })
+//     })
+// })
